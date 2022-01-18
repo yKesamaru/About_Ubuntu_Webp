@@ -1,27 +1,8 @@
 # 結論
-以下を実行。
+以下を実行後ファイラ起動。
 ```bash
 sudo add-apt-repository ppa:krifa75/eog-ordissimo; sudo apt update && sudo apt install webp-pixbuf-loader -y
 ```
-以上。
-# 従来の方法
-- [Ubuntu 20.04 LTSでHEIFとWebPを扱う](https://mackro.blog.jp/archives/6545568.html)[ファイラーでWebPのサムネイルを表示する]
-  - 変換(dwebp)を挟む
-  - 設定ファイルを書く
-# なぜ共有するのか
-- ファイラにWebPファイルのサムネイルが正しく表示されない状態がUbuntu18.04および20.04において未だに(2022年1月現在)存在している
-- 調査に時間を使った
-- 同じ内容の日本語の情報がなかった
-- 従来の方法は手間が多い
-
-# Reference
-- [How to Use WebP Images in Ubuntu and Other Linux Distributions: It's FOSS](https://itsfoss.com/webp-ubuntu-linux/)
-- [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)
-- [EogOrdissimo: Launchpad](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo)
-- 補足
-  - [webp-pixbuf-loader 0.0.3-1: ArchLinux](https://www.archlinux.jp/packages/community/x86_64/webp-pixbuf-loader/)
-  - [webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm: Fedora](https://fedora.pkgs.org/34/fedora-x86_64/webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm.html)
-  - [ダウンロード: Package list krifa](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo/+packages)
 
 # 検証環境
 - ファイラ
@@ -61,6 +42,26 @@ libgdk-pixbuf2.0-0:amd64 (2.36.11-2) のトリガを処理しています ...
 ![nautilus](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_nautilus_after.png)*GNOME nautilus 3.26.4*  
 ![thunar](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_thunar_after.png)*Thunar 1.6.15*  
 ![pcmanfm](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_pcmanfm_after.png)*pcmanfm 1.2.5*  
+# 従来の方法
+- [Ubuntu 20.04 LTSでHEIFとWebPを扱う](https://mackro.blog.jp/archives/6545568.html)[ファイラーでWebPのサムネイルを表示する]
+  - 変換(dwebp)を挟む
+  - 設定ファイルを書く
+# なぜ共有するのか
+- ファイラにWebPファイルのサムネイルが正しく表示されない状態がUbuntu18.04および20.04において未だに(2022年1月現在)存在している
+- 調査に時間を使った
+- 同じ内容の日本語の情報がなかった
+- 従来の方法は手間が多い
+
+# Reference
+- [How to Use WebP Images in Ubuntu and Other Linux Distributions: It's FOSS](https://itsfoss.com/webp-ubuntu-linux/)
+- [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)
+- [EogOrdissimo: Launchpad](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo)
+- 補足
+  - [webp-pixbuf-loader 0.0.3-1: ArchLinux](https://www.archlinux.jp/packages/community/x86_64/webp-pixbuf-loader/)
+  - [webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm: Fedora](https://fedora.pkgs.org/34/fedora-x86_64/webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm.html)
+  - [ダウンロード: Package list krifa](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo/+packages)
+
+
 # 備考
 - Fedora, Arch, Manjaro^[未確認], openSUSE(Tumbleweed)^[未確認]では公式リポジトリから提供(2022年1月現在)
 - [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)ではインストール後に`ppaの削除`を推奨している
