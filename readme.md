@@ -58,9 +58,9 @@ webp-pixbuf-loader (0.2.1-bionic1) を設定しています ...
 libgdk-pixbuf2.0-0:amd64 (2.36.11-2) のトリガを処理しています ...
 ```
 ## 実行後
-![nautilus](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/nautilus_after.png)*GNOME nautilus 3.26.4*  
-![thunar](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/thunar_after.png)*Thunar 1.6.15*  
-![pcmanfm](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/pcmanfm_after.png)*pcmanfm 1.2.5*  
+![nautilus](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_nautilus_after.png)*GNOME nautilus 3.26.4*  
+![thunar](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_thunar_after.png)*Thunar 1.6.15*  
+![pcmanfm](https://raw.githubusercontent.com/yKesamaru/About_Ubuntu_Webp/master/img/shadow_pcmanfm_after.png)*pcmanfm 1.2.5*  
 # 備考
 - Fedora, Arch, Manjaro^[未確認], openSUSE(Tumbleweed)^[未確認]では公式リポジトリから提供(2022年1月現在)
 - [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)ではインストール後に`ppaの削除`を推奨している
