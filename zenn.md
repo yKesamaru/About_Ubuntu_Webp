@@ -17,7 +17,11 @@ sudo add-apt-repository ppa:krifa75/eog-ordissimo; sudo apt update && sudo apt i
 # Reference
 - [How to Use WebP Images in Ubuntu and Other Linux Distributions: It's FOSS](https://itsfoss.com/webp-ubuntu-linux/)
 - [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)
-- [EogOrdissimo: launchpad](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo)
+- [EogOrdissimo: Launchpad](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo)
+- 補足
+  - [webp-pixbuf-loader 0.0.3-1: ArchLinux](https://www.archlinux.jp/packages/community/x86_64/webp-pixbuf-loader/)
+  - [webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm: Fedora](https://fedora.pkgs.org/34/fedora-x86_64/webp-pixbuf-loader-0.0.2-2.fc34.x86_64.rpm.html)
+  - [ダウンロード: Package list krifa](https://launchpad.net/~krifa75/+archive/ubuntu/eog-ordissimo/+packages)
 
 # 検証環境
 - ファイラ
@@ -58,7 +62,7 @@ libgdk-pixbuf2.0-0:amd64 (2.36.11-2) のトリガを処理しています ...
 ![thunar](img/thunar_after.png)*Thunar 1.6.15*  
 ![pcmanfm](img/pcmanfm_after.png)*pcmanfm 1.2.5*  
 # 備考
-- Fedora, Archでは公式リポジトリから提供(2022年1月現在)
+- Fedora, Arch, Manjaro^[未確認], openSUSE(Tumbleweed)^[未確認]では公式リポジトリから提供(2022年1月現在)
 - [How to Enable Thumbnails for WebP Files in Ubuntu 20.04 / Fedora 34: FOSTips](https://fostips.com/enable-thumbnails-webp-ubuntu-fedora/)ではインストール後に`ppaの削除`を推奨している
-  - 理由: EOGに不具合が出る可能性があるから
+  - 理由: EOGに不具合が出る可能性があるから^[未確認]
 - `pcmanfm`で特定ファイルだけサムネイルが表示されない
